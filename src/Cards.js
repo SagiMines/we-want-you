@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import './Cards.css';
-import { useState } from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 

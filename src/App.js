@@ -14,12 +14,12 @@ function App() {
     for (const user of temp) {
       if (user.name === name) {
         user.score += 1;
+        user.lastUpdate = new Date().toLocaleString();
         break;
       }
     }
     temp.sort(order);
     setUsers([...temp]);
-    console.log(users);
   };
   return (
     <>
