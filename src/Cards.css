@@ -1,0 +1,30 @@
+.card {
+  flex-direction: row;
+  width: 18rem;
+  margin-bottom: 7px;
+}
+.card-img {
+  width: 25%;
+  height: 25%;
+  align-self: center;
+}
+.score {
+  background-color: #008bff;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.svg-inline--fa {
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.date {
+  display: block;
+}
+
+.card-text {
+  color: #000000bd;
+}

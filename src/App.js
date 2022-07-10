@@ -1,9 +1,35 @@
+import { useState } from 'react';
 import getTheUsers from './getTheUsers';
-import './App.css';
+import PageStructure from './PageStructure';
 
 function App() {
-  const users = getTheUsers();
-  return <div className="App"></div>;
+  //Sort the users by score
+  const order = (a, b) => {
+    return b.score - a.score;
+  };
+  //Get the initial user's data
+  const [users, setUsers] = useState(getTheUsers().sort(order));
+  const handleClick = name => {
+    let temp = users;
+    for (const user of temp) {
+      if (user.name === name) {
+        user.score += 1;
+        break;
+      }
+    }
+    temp.sort(order);
+    setUsers([...temp]);
+    console.log(users);
+  };
+  return (
+    <>
+      <PageStructure
+        imageUrl="weneedyou.jpg"
+        users={users}
+        onClick={handleClick}
+      />
+    </>
+  );
 }
 
 export default App;
