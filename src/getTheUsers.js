@@ -2,7 +2,7 @@ function getTheUsers() {
   return [
     {
       id: 1,
-      avatar: './../public/avatar.jpg',
+      avatar: 'avatar.jpg',
       name: 'Raheem',
       description: 'Studying, Swimming, Traveling',
       lastUpdate: '19.10.2019, 10:12:22',
@@ -10,7 +10,7 @@ function getTheUsers() {
     },
     {
       id: 2,
-      avatar: './../public/avatar.jpg',
+      avatar: 'avatar.jpg',
       name: 'Shahar',
       description: 'Love Chess, Movies, Trips and Technology',
       lastUpdate: '11.5.2020, 14:46:02',
@@ -18,7 +18,7 @@ function getTheUsers() {
     },
     {
       id: 3,
-      avatar: './../public/avatar2.png',
+      avatar: 'avatar2.png',
       name: 'Noa',
       description: 'Dancing is my thing',
       lastUpdate: '8.2.2021, 8:29:15',
@@ -26,11 +26,11 @@ function getTheUsers() {
     },
     {
       id: 4,
-      avatar: './../public/avatar2.png',
+      avatar: 'avatar2.png',
       name: 'Talila',
       description: "When life's good, everything's good",
       lastUpdate: '7.9.2021, 13:50:14',
-      score: 4,
+      score: 10,
     },
   ];
 }
