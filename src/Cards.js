@@ -6,7 +6,7 @@ import { faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 function Cards(props) {
   const handleClick = () => {
-    props.onClick(props.name);
+    props.onClick(props.id);
   };
   return (
     <Card>
