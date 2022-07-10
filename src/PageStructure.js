@@ -11,6 +11,8 @@ function PageStructure(props) {
       <section className="user-cards">
         {users.map(user => (
           <Cards
+            key={user.id}
+            id={user.id}
             avatar={user.avatar}
             name={user.name}
             description={user.description}
