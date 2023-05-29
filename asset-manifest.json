@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/we-want-you/static/css/main.f4994e16.css",
+    "main.js": "/we-want-you/static/js/main.58628ede.js",
+    "index.html": "/we-want-you/index.html",
+    "main.f4994e16.css.map": "/we-want-you/static/css/main.f4994e16.css.map",
+    "main.58628ede.js.map": "/we-want-you/static/js/main.58628ede.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4994e16.css",
+    "static/js/main.58628ede.js"
+  ]
+}
